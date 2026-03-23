@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# LanceDB runtime data (written to /tmp by default, but ignore any local copy)
+*.lance/
+graph_rag_lancedb/
+
+# OS
+.DS_Store
